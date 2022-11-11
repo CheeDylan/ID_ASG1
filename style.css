@@ -1,5 +1,8 @@
 .title{
-    width: 100%;
+    align-items: center;
+    width: 650px;
+    justify-content: center;
+    background-color: grey;
 }
 
 .download{
@@ -12,4 +15,15 @@
     color: azure;
     width: 250px;
     height: 50px;
+}
+.navigation{
+    font-family: "Nova Square";
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: green;
+    color: azure;
+    width: 100px;
+    height: 25px;
 }
