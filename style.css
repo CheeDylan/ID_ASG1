@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.topbox{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+}
+.top{
+    width: 250px;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 10px;
+    white-space: nowrap;
+}
+
 nav{
     display: flex;
     width: 100%;
@@ -32,6 +45,7 @@ nav{
     align-items: flex-end;
     background: lightgreen;
     height: 25px;
+    text-decoration: none;
 }
 
 .download{
