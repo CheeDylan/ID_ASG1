@@ -37,10 +37,19 @@ nav{
 .download{
     font-size: 25px;
     display: flex;
-    background-color: aquamarine;
-    width: 190px;
-    height: 25px;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(55, 105, 66);
+    width: 194px;
+    height: 35px;
     justify-content: center;
     align-items: center;
+    margin-left: 35%;
+    cursor: pointer;
+    transition: .15s;
 
+}
+.download:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0,.4);
 }
