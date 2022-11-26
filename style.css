@@ -1,59 +1,46 @@
-.main{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
     display: flex;
-}
-.title{
-    width: 50%;
-    position: aboslute;
-    justify-content: center;
-    background: grey;
-}
-
-
-.navigation{
-    font-family: "Nova Square";
-    font-size: 15px;
-    justify-content: left;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    background-color: green;
+    justify-content: space-between;
     align-items: center;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.logo{
     display: flex;
-    background: green;
-    width: 50%;
+    padding: 1%;
+    border: 20px;
+    height: 70px ;
+}
+
+.nav-link{
+    cursor: pointer;
+    font-family: Nova Square;
+    display: flex;
+    list-style: none;
+    width: 25%;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: lightgreen;
     height: 25px;
 }
-.nav_items{
-    position: relative;
-    justify-content: space-between;
-    display: flex;
-    color: azure;
-    background-color: darkgreen;
-    width: 30px;
-    height: 20px;
-    padding: -1%;
 
-    flex-basis: 20%;
-}
-.others{
-    position: relative;
-    display: flex;
-    background-color: aliceblue;
-}
-section{
-    position: absolute;
-    display: flex;
-    background-color: aqua;
-    width: 100%;
-    height: 80%;
-}
 .download{
-    position: absolute;
+    font-size: 25px;
     display: flex;
-    font-family: "Nova Square";
-    font-size: 20px;
+    background-color: aquamarine;
+    width: 190px;
+    height: 25px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto ;
-    background: green;
-    color: azure;
-    width: 250px;
-
+    align-items: center;
 
 }
