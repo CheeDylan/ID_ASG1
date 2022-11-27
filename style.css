@@ -43,7 +43,7 @@ nav{
 .download{
     z-index: 10;
     position: absolute;
-    top: 580px;
+    top: 560px;
     font-size: 25px;
     display: flex;
     border: none;
@@ -82,7 +82,7 @@ nav{
     z-index: 8;
     display: block;
     position: absolute;
-    top: 560px;
+    top: 540px;
     width: 74%;
     margin-left: 13%;
     background-color: rgba(33, 34, 33, 0.7);
@@ -136,9 +136,9 @@ nav{
     
 }
 .cobble{
+    width: 100%;
     top:1000px;
     margin-top: 0px;
-    padding-top: 10px;
     z-index: 2;
 }
 @media only screen and (max-width: 600px){
