@@ -40,7 +40,7 @@ nav{
 .download{
     z-index: 10;
     position: absolute;
-    top: 760px;
+    top: 620px;
     font-size: 25px;
     display: flex;
     border: none;
@@ -68,22 +68,21 @@ nav{
 }
 .title{
     position: absolute;
-    top: 200px;
+    top: 210px;
     margin-left: 30%;
     width: 40%;
     background-color: rgba(0,0,0,.20);
     box-shadow: 0px 0px 30px rgba(0,0,0,.4);
 }
 .others{
+    display: block;
     position: absolute;
-    top: 725px;
+    top: 560px;
     width: 74%;
     margin-left: 13%;
     background-color: rgba(40, 49, 39, 0.7);
     padding-bottom: 50px;
-    padding-top: 200px;
-
-
+    padding-top: 180px;
 }
 .othersContent{
     display: flex;
@@ -95,7 +94,7 @@ nav{
 
 }
 .otehrsImage{
-    height: 300;
+    height: 250px;
     width: 350px;
     margin-right: 10px;
     margin-top: 20px;
@@ -103,22 +102,8 @@ nav{
     object-fit: cover;
 }
 .othersTextL{
+    color: antiquewhite;
     padding-top: 20px;
-    
-    display: flex;
-    width: 40%;
-    display: inline-block;
-    text-align: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-top: 150px;
-    
-}
-.othersTextR{
-    height: auto;
-    padding-top: 20px;
-
     display: flex;
     width: 40%;
     display: inline-block;
@@ -126,8 +111,30 @@ nav{
     margin-right: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    border-top: 150px;
+
+    
+}
+.othersTextR{
+    align-items: center;
+    color: antiquewhite;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     
 }
 .report{
     display: block;
+    position: relative;
+    width: 10%;
+    margin-left: 45%;
+}
+@media only screen and (max-width: 600px){
+
 }
