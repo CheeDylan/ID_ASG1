@@ -33,6 +33,9 @@ nav{
     color: aliceblue;
     height: 40px;
 }
+.navLink:hover{
+    text-decoration: dotted;
+}
 .homeImage{
     z-index: 8;
     width: 100%;
