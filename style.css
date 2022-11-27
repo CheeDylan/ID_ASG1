@@ -5,9 +5,6 @@
     font-family: Noto Sans;
     
 }
-body{
-    background-image: url('img_girl.jpg');
-}
 
 nav{
     display: flex;
@@ -41,6 +38,7 @@ nav{
     z-index: -10;
 }
 .download{
+    z-index: 10;
     position: absolute;
     top: 760px;
     font-size: 25px;
@@ -70,17 +68,20 @@ nav{
 }
 .title{
     position: absolute;
-    top: 300px;
+    top: 200px;
     margin-left: 30%;
     width: 40%;
+    background-color: rgba(0,0,0,.20);
+    box-shadow: 0px 0px 30px rgba(0,0,0,.4);
 }
 .others{
-    top: 260px;
+    position: absolute;
+    top: 725px;
     width: 74%;
     margin-left: 13%;
     background-color: rgba(40, 49, 39, 0.7);
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 200px;
 
 
 }
@@ -124,4 +125,7 @@ nav{
     margin-top: 10px;
     margin-left: 10px;
     
+}
+.report{
+    display: block;
 }
