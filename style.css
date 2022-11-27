@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Noto Sans;
     
 }
-
+body{
+    background-image: url('img_girl.jpg');
+}
 
 nav{
     display: flex;
@@ -37,47 +40,87 @@ nav{
     height: 25px;
     text-decoration: none;
 }
-
+.homeImage{
+    width: 100%;
+    position: relative;
+    z-index: -10;
+}
 .download{
+    position: absolute;
+    top: 760px;
     font-size: 25px;
     display: flex;
     border: none;
     color: aliceblue;
     font-weight: bold;
     background-color: rgb(55, 105, 66);
-    width: 194px;
-    height: 35px;
+    padding: 10px;
+    width: 24%;
     justify-content: center;
     align-items: center;
-    margin-left: 35%;
+    margin-left: 38%;
     cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+
+
     transition: .15s;
+    border: red;
 
 }
 .download:hover{
-    box-shadow: 0px 0px 15px rgba(0,0,0,.4);
+    box-shadow: 0px 0px 15px rgba(255,255,255,.4);
+}
+.download:active{
+    background-color: rgb(35, 72, 43);
 }
 .others{
-    background-color: rgb(162, 221, 160);
-    width: 80%;
-    margin-left: 10%;
+    top: 260px;
+    width: 74%;
+    margin-left: 13%;
+    background-color: rgba(40, 49, 39, 0.7);
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+
 }
 .othersContent{
     display: flex;
     vertical-align: top;
+    justify-content: space-around;
+    opacity: 100%;
+    
+
+
 }
 .otehrsImage{
     width: 300px;
     margin-right: 10px;
-    margin-top: 10px;
-    ;
+    margin-top: 20px;
+    margin-left: 10px;
 }
-.othersText{
-    font-family: Noto Sans;
+.othersTextL{
+    padding-top: 20px;
+    
+    display: flex;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top: 150px;
+    
+}
+.othersTextR{
+    height: auto;
+    padding-top: 20px;
+
     display: flex;
     width: 40%;
     display: inline-block;
     text-align: right;
+    margin-right: 10px;
     margin-top: 10px;
+    margin-left: 10px;
     
 }
