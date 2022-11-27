@@ -144,6 +144,26 @@ nav{
     margin-top: 0px;
     z-index: 2;
 }
+
+/* REPORT */
+.reportBox{
+    display: block;
+    position: absolute;
+    margin-left: 10%;
+    background-color: black;
+    width: 80%;
+    opacity: .4;
+}
+.reportContent{
+    opacity: 1.0;
+    color: brown;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 600px){
 
 }
