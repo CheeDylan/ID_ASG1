@@ -147,18 +147,41 @@ nav{
 
 /* REPORT */
 .reportBox{
+    z-index: 100;
     display: block;
     position: absolute;
     margin-left: 10%;
     background-color: black;
     width: 80%;
-    opacity: .4;
+    background-color: rgba(0,0,0,.4);
+    height: 60%;
+    top: 154px;
 }
 .reportContent{
+    padding-left: 30px;
     opacity: 1.0;
-    color: brown;
+    color: antiquewhite;
 }
-
+.inputReport{
+    opacity: .4;
+    margin-top: 10px;
+    height: 100px;
+    width: 40%;
+    border: none;
+    box-sizing: border-box;
+}
+.inputReport::placeholder{
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.inputReport[type=text]{
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+    
+}
 
 
 
