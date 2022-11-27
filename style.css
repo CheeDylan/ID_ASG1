@@ -95,10 +95,12 @@ nav{
 
 }
 .otehrsImage{
-    width: 300px;
+    height: 300;
+    width: 350px;
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 10px;
+    object-fit: cover;
 }
 .othersTextL{
     padding-top: 20px;
