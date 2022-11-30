@@ -48,6 +48,7 @@ nav{
     position: relative;
     z-index: 3;
     margin-bottom: 0px;
+    object-fit: cover;
 }
 .download{
     z-index: 10;
@@ -374,14 +375,26 @@ p .loginContent{
     transform: rotate(45deg);
   }
 .loginButton{
+    margin-left: 35px;
     margin-top: 5px;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: none;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: bisque;
+    border: none;
     font-size: bold;
     background-color: #611c78;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .15s;
+}
+.loginButton:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+.loginButton:active{
+    background-color: #481658;
+    color: rgb(164, 148, 128);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 @media only screen and (max-width: 600px){
 
