@@ -376,7 +376,7 @@ p .loginContent{
 .loginButton{
     border: none;
     color: bisque;
-    f
+    font-size: bold;
     
 }
 @media only screen and (max-width: 600px){
