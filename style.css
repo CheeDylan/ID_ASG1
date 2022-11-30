@@ -403,14 +403,19 @@ p .loginContent{
 }
 .loginCreate{
     display: block;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-top: 45px;
     font-size: 12px;
     opacity: .8;
     color: bisque;
     text-decoration: none;
 }
-.loginCreate:ho
+.loginCreate:hover{
+    text-decoration: underline;
+}
+.loginCreate:active{
+    text-shadow: 0 0 10px rgba(255,255,255,.4);
+}
 @media only screen and (max-width: 600px){
 
 }
