@@ -187,10 +187,10 @@ nav{
     
 }
 .reportType{
+    font-size: smaller;
     display: flex;
-    width: 65%;
-
-    justify-content: space-around;
+    width: 50%;
+    justify-content: space-between;
 }
 .reportSelect{
     display: inline;
