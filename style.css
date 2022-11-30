@@ -186,51 +186,49 @@ nav{
     color: antiquewhite;
     
 }
+.BigType{
+    margin-top: 10px;
+}
 .reportType{
-    font-size: smaller;
     display: flex;
-    width: 50%;
-    justify-content: space-around;
-    text-align: left;
+    width: 40%;
+    justify-content: space-between;
+
 }
 .reportSelect{
+    opacity: .8;
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 20px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: small;
+    font-size: 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; 
+    user-select: none;
 }
 .reportSelect input {
     position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
   }
-.reportCheck{
-    margin-left: 10px;
-    border: none;
-    cursor: pointer;
-    opacity: .7;
-}
 .checkmark {
+    opacity: .5;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
 }
 .reportSelect:hover input ~ .checkmark {
     background-color: #ccc;
 }
 .reportSelect input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #aa2929;
   }
   .checkmark:after {
     content: "";
@@ -241,40 +239,40 @@ nav{
     display: block;
   }
   .reportSelect .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 4.5px;
+    top: 1px;
+    width: 4px;
+    height: 7px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
 .reportButton{
     border-radius: 1px;
-    margin-top: 20px;
+    margin-top: 5px;
     display: block;
     border-color: rgb(78, 32, 32);
     border-style: solid;
-    border-width: 5px;
-    padding: 7px;
-    padding-left: 30px;
-    padding-right:30px;
-    font-size:18px;
+    border-width: 2px;
+    padding: 4px;
+    width: 10%;
+    font-size: 15px;
     font-weight: bolder;
     margin-left: 20px;
     background-color: rgb(151, 25, 18);
     color: rgb(204, 174, 164);
-    opacity: .8;
     transition: .15s;
     cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
 }
 .reportButton:hover{
     box-shadow: 0 0 15px rgba(255, 255, 255, .2);
 }
 .reportButton:active{
-    opacity: .7;
+    background-color: #aa2929;
 }
 
 
