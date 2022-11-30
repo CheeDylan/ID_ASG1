@@ -17,6 +17,7 @@ body{
     height: 70px;
     background-color: rgba(0,0,0,.5);
     box-shadow: 0 0 60px rgba(0,0,0,1);
+    position: fixed;
 }
 nav{
     margin-top: 10px;
@@ -26,20 +27,22 @@ nav{
     display: flex;
     position: absolute;
     justify-content: flex-end; 
+    position: fixed;
 }
 .navLink{
     margin-right: 20px;
     margin-top: 10px;
     margin-left: 10px;
-    z-index: 10;
     text-decoration: none;
     display: block;
     color: aliceblue;
     height: 40px;
     transition: .15s;
+    display: block;
+
 }
 .navLink:hover{
-    text-shadow: 0 0 15px rgba(255,255,255,.7);
+    text-shadow: 0 0 15px rgba(255,255,255,1);
     text-decoration: underline;
 }
 .homeImagefix{
