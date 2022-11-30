@@ -374,7 +374,10 @@ p .loginContent{
     transform: rotate(45deg);
   }
 .loginButton{
-    margin-top: 10;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: none;
     color: bisque;
     font-size: bold;
