@@ -186,7 +186,11 @@ nav{
     color: antiquewhite;
     
 }
-.reportType1{
+.reportType{
+    display: flex;
+    width: 65%;
+
+    justify-content: space-around;
 }
 .reportSelect{
     display: inline;
@@ -194,9 +198,10 @@ nav{
     margin-top: 10px;
     
 }
-.reporCheck{
+.reportCheck{
     border: none;
     cursor: pointer;
+    border-width: 10px;
 
 }
 .reportButton{
