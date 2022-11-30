@@ -39,7 +39,8 @@ nav{
     transition: .15s;
 }
 .navLink:hover{
-    text-shadow: 0 0 15px rgba(255,255,255,1);
+    text-shadow: 0 0 15px rgba(255,255,255,.7);
+    text-decoration: underline;
 }
 .homeImage{
     z-index: 8;
