@@ -171,6 +171,7 @@ nav{
     width: 65%;
     border: none;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .inputReport::placeholder{
     font-size: large;
@@ -254,24 +255,28 @@ nav{
     display: block;
     border: noone;
     border-style: solid;
-    border-width: 2px;
-    padding: 4px;
-    width: 10%;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
     font-size: 15px;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 35px;
     background-color: rgb(151, 25, 18);
     color: rgb(204, 174, 164);
     transition: .15s;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(0,0,0,.3);
     border-radius: 5px;
+    border:none;
 }
 .reportButton:hover{
-    box-shadow: 0 0 15px rgba(255, 255, 255, .2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
 .reportButton:active{
-    background-color: #aa2929;
+    background-color: rgb(114, 20, 15);
+    color: rgb(142, 121, 115);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7)
 }
 
 /* Login */
