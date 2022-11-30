@@ -25,8 +25,7 @@ nav{
     width: 100%;
     display: flex;
     position: absolute;
-    justify-content: flex-end;
-    
+    justify-content: flex-end; 
 }
 .navLink{
     margin-right: 20px;
@@ -251,7 +250,7 @@ nav{
 
 .reportButton{
     border-radius: 1px;
-    margin-top: 5px;
+    margin-top: 10px;
     display: block;
     border: noone;
     border-style: solid;
@@ -402,6 +401,16 @@ p .loginContent{
     color: rgb(164, 148, 128);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
+.loginCreate{
+    display: block;
+    margin-left: 15px;
+    margin-top: 45px;
+    font-size: 12px;
+    opacity: .8;
+    color: bisque;
+    text-decoration: none;
+}
+.loginCreate:ho
 @media only screen and (max-width: 600px){
 
 }
