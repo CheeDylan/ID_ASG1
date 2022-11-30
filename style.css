@@ -377,6 +377,7 @@ p .loginContent{
     border: none;
     color: bisque;
     font-size: bold;
+    background-color: #611c78;
     
 }
 @media only screen and (max-width: 600px){
