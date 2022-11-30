@@ -258,15 +258,15 @@ nav{
     padding: 7px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 150px;
+    width: 160px;
     font-size: 15px;
     font-weight: bolder;
-    margin-left: 35px;
+    margin-left: 45px;
     background-color: rgb(151, 25, 18);
     color: rgb(204, 174, 164);
     transition: .15s;
     cursor: pointer;
-    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    box-shadow: 0 0 15px rgba(54, 18, 18, 0.3);
     border-radius: 5px;
     border:none;
 }
