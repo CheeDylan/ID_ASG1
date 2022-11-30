@@ -161,6 +161,7 @@ nav{
     top: 154px;
 }
 .reportContent{
+    margin-top: 10px;
     padding-left: 30px;
     opacity: 1.0;
     color: antiquewhite;
@@ -193,12 +194,20 @@ nav{
     padding-left: 20px;
     padding-right:20px;
     font-size: 15px;
+    font-weight: bold;
     font-family: Noto Sans;
-    background-color: red;
+    margin-left: 20px;
+    background-color: rgb(151, 25, 18);
     color: antiquewhite;
+    transition: .15s;
 }
-
-
+.reportButton:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, .2);
+}
+.reportButton:active{
+    background-color: brown;
+    color: brown;
+}
 
 
 
