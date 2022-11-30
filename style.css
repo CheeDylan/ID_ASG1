@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
     font-family: Noto Sans;
+    
 }
 
 .topShadow{
@@ -184,12 +186,16 @@ nav{
     
 }
 .reportButton{
+    margin-top: 10px;
+    display: block;
     border: none;
-    padding: 15px;
+    padding: 10px;
     padding-left: 20px;
     padding-right:20px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Noto Sans;
+    background-color: red;
+    color: antiquewhite;
 }
 
 
