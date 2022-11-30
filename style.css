@@ -181,7 +181,6 @@ nav{
     font-size: large;
     font-weight: bold;
     color: antiquewhite;
-    
 }
 .BigType{
     margin-top: 10px;
@@ -220,6 +219,7 @@ nav{
     height: 15px;
     width: 15px;
     background-color: #eee;
+    transition: .15s;
 }
 .reportSelect:hover input ~ .checkmark {
     background-color: #ccc;
@@ -271,16 +271,113 @@ nav{
 .reportButton:active{
     background-color: #aa2929;
 }
+
 /* Login */
-.emailFill{
-    display: flex;
-    position:absolute;
+.loginBox{
+    z-index: 100;
+    display: block;
+    position: absolute;
+    margin-left: 10%;
+    background-color: black;
     width: 80%;
-    background-color: aliceblue;
-    opacity: 90%;
-    
+    background-color: rgba(0,0,0,.4);
+    height: 60%;
+    top: 154px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.loginContent{
+    font-size: large;
+    width: 300px;
+    margin-top: 20px;
+    color: bisque;
+}
+p .loginContent{
+    margin: 100px;
+}
+.loginFill{
+    opacity: .4;
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: azure;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(51, 22, 65);
+    box-shadow: 0 0 10px rgba(255,255,255,.5);
+}
+.loginFill[type=text]{
+    font-size: small;
 }
 
+.loginSelect{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: bisque;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.loginSelect input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+  }
+.checkmarkLogin {
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    transition: .15s;
+}
+.loginSelectt:hover input ~ .checkmarkLogin {
+    background-color: #ccc;
+}
+.loginSelect input:checked ~ .checkmarkLogin {
+    background-color: #611c78;
+  }
+  .checkmarkLogin:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .loginSelect input:checked ~ .checkmarkLogin:after {
+    display: block;
+  }
+  .loginSelect .checkmarkLogin:after {
+    left: 4.5px;
+    top: 1px;
+    width: 4px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+.loginButton{
+    border: none;
+    color: bisque;
+    
+}
 @media only screen and (max-width: 600px){
 
 }
