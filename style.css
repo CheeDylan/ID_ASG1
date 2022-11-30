@@ -186,7 +186,19 @@ nav{
     color: antiquewhite;
     
 }
+.reportType1{
+}
+.reportSelect{
+    display: inline;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.reporCheck{
+    border: none;
+    cursor: pointer;
 
+}
 .reportButton{
     border-radius: 1px;
     margin-top: 20px;
