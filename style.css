@@ -426,7 +426,6 @@ p .loginContent{
 /* community*/
 
 .commTitle{
-    
     color: antiquewhite;
     justify-content: center;
     background-color: aliceblue;
@@ -453,6 +452,7 @@ p .loginContent{
     vertical-align: top;
     justify-content: space-around;
     margin: 0;
+    
 }
 .commContent{
     position: absolute;
@@ -461,7 +461,7 @@ p .loginContent{
     background-color: rgba(0, 0, 0, .4);
     height: 80%;
     padding-top: 6%;
-    top: 100px;
+    top: 40px;
 }
 .commTextL{
     position: absolute;
