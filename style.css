@@ -424,42 +424,31 @@ p .loginContent{
     text-shadow: 0 0 10px rgba(255,255,255,.4);
 }
 /* community*/
-.commimage{
-    width: 30%;
-    height: 250px;
-    object-fit: cover;
-}
 
+.commTitle{
+    position: absolute;
+    top: 50px;
+}
 .commContents{
     z-index: 8;
     display: block;
     position: absolute;
-    top: 540px;
+    top: 100px;
     width: 74%;
     margin-left: 13%;
-    background-color: rgba(33, 34, 33, 0.7);
+    background-color: rgba(33, 34, 33, 0.6);
     padding-bottom: 50px;
     padding-top: 140px;
     box-shadow: 0 0 10px rgba(33, 34, 33, 1);
 }
-.commTitle{
-    margin-left: 50%;
-}
-.othersContent{
+.commbox{
     display: flex;
     vertical-align: top;
     justify-content: space-around;
-    opacity: 100%;
+    background-color: rgb(39, 60, 53);
 }
-.otehrsImage{
-    height: 250px;
-    width: 350px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-    object-fit: cover;
-}
-.othersTextL{
+
+.commTextL{
     color: antiquewhite;
     padding-top: 20px;
     display: flex;
@@ -473,8 +462,8 @@ p .loginContent{
 
     
 }
-.othersTextR{
-    align-items: center;
+.commTextR{
+
     color: antiquewhite;
     height: auto;
     padding-top: 20px;
@@ -487,7 +476,15 @@ p .loginContent{
     margin-left: 10px;
     
 }
-
+.commimage{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    object-fit: cover;
+}
 @media only screen and (max-width: 600px){
 
 }
