@@ -146,7 +146,11 @@ nav{
     display: inline-block;
     text-decoration: underline;
     font-size: 22px;
-
+}
+.othersTextL h3{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 22px;
 }
 .othersTextR{
     align-items: center;
@@ -485,31 +489,34 @@ p .loginContent{
     width: 40%;
     display: inline-block;
     text-align: right;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-left: 15px; 
+    margin-top: 7%;
+    margin-left: 7%; 
     margin-bottom: 25px;
-}
-.commTextL h2{
-    margin-top: 15%;
+    margin-right: 5%;
 }
 .commTextR{
-    margin-top: 10%;
+    margin-top: 7%;
     position: absolute;
     color: antiquewhite;
     display: flex;
     width: 40%;
     display: inline-block;
     text-align: left;
-    margin-right: 10px;
-    margin-left: 50%;
+    margin-right: 7%;
+    margin-left: 52%;
+    
 }
 .commTextR h2{
-    margin-top: 15%;
+    font-family: Minecraftia;
+    margin-top: 10%;
+}
+.commTextL h2{
+    font-family: Minecraftia;
+    margin-top: 10%;
 }
 
 .commimage{
-    width: 80%;
+    width: 95%;
     height: 250px;
     object-fit: cover;
     margin-right: 10px;
@@ -522,8 +529,8 @@ p .loginContent{
     display: flex;
     background-color: rgb(26, 25, 25);
     box-shadow: 0 0 15px rgba(0, 0, 0, .7);
-
 }
-@media only screen and (max-width: 600px){
 
+@media screen {
+    
 }
