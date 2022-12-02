@@ -429,6 +429,14 @@ p .loginContent{
     position: absolute;
     top: 50px;
 }
+.commHomeImage{
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .commContents{
     z-index: 8;
     display: block;
@@ -442,6 +450,8 @@ p .loginContent{
     box-shadow: 0 0 10px rgba(33, 34, 33, 1);
 }
 .commbox{
+    display: block;
+    position: absolute;
     display: flex;
     vertical-align: top;
     justify-content: space-around;
