@@ -426,18 +426,28 @@ p .loginContent{
 /* community*/
 
 .commTitle{
+    
+    color: antiquewhite;
+    justify-content: center;
+    background-color: aliceblue;
     position: absolute;
-    top: 50px;
 }
+
 .commHomeImage{
-    height: 50%; 
-  
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%; 
     /* Center and scale the image nicely */
+    object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
 }
-.commContents{
+?/*.commContents{
+
     z-index: 8;
     display: block;
     position: absolute;
@@ -448,16 +458,20 @@ p .loginContent{
     padding-bottom: 50px;
     padding-top: 140px;
     box-shadow: 0 0 10px rgba(33, 34, 33, 1);
-}
+}*/
 .commbox{
+    position: relative;
+    width: 100%;
     display: block;
-    position: absolute;
     display: flex;
     vertical-align: top;
     justify-content: space-around;
+    background-color: rgb(92, 129, 117);
+    margin: 0;
 }
 
 .commTextL{
+    position: absolute;
     color: antiquewhite;
     padding-top: 20px;
     display: flex;
@@ -471,6 +485,7 @@ p .loginContent{
     margin-bottom: 10px;
 }
 .commTextR{
+    position: absolute;
     color: antiquewhite;
     height: auto;
     padding-top: 20px;
