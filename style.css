@@ -432,9 +432,15 @@ p .loginContent{
     background-color: aliceblue;
     position: absolute;
 }
-
+.commContent{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    
+}
 .commHomeImage{
-    position: relative;
+
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -446,21 +452,7 @@ p .loginContent{
     background-size: cover;
     margin: 0px;
 }
-?/*.commContents{
-
-    z-index: 8;
-    display: block;
-    position: absolute;
-    top: 100px;
-    width: 74%;
-    margin-left: 13%;
-    background-color: rgba(33, 34, 33, 0.6);
-    padding-bottom: 50px;
-    padding-top: 140px;
-    box-shadow: 0 0 10px rgba(33, 34, 33, 1);
-}*/
 .commbox{
-    position: relative;
     width: 100%;
     display: block;
     display: flex;
@@ -471,7 +463,6 @@ p .loginContent{
 }
 
 .commTextL{
-    position: absolute;
     color: antiquewhite;
     padding-top: 20px;
     display: flex;
@@ -485,7 +476,6 @@ p .loginContent{
     margin-bottom: 10px;
 }
 .commTextR{
-    position: absolute;
     color: antiquewhite;
     height: auto;
     padding-top: 20px;
