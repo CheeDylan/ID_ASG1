@@ -459,35 +459,40 @@ p .loginContent{
     width: 80%;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, .4);
-
     height: 80%;
     padding-top: 6%;
     top: 100px;
 }
 .commTextL{
+    position: absolute;
     color: antiquewhite;
-    padding-top: 20px;
     display: flex;
     width: 40%;
     display: inline-block;
     text-align: right;
     margin-right: 10%;
-    margin-top: 20px;
-    margin-left: 15px;
-    border-top: 150px;   
+    margin-top: 10%;
+    margin-left: 15px; 
     margin-bottom: 10px;
 }
+.commTextL h2{
+    margin-top: 15%;
+}
 .commTextR{
+    margin-top: 10%;
+    position: absolute;
     color: antiquewhite;
-    height: auto;
     display: flex;
-    width: 30%;
+    width: 40%;
     display: inline-block;
     text-align: left;
     margin-right: 10px;
-    margin-left: 10px;
-
+    margin-left: 50%;
 }
+.commTextR h2{
+    margin-top: 15%;
+}
+
 .commimage{
     width: 80%;
     height: 250px;
