@@ -430,6 +430,64 @@ p .loginContent{
     object-fit: cover;
 }
 
+.commContents{
+    z-index: 8;
+    display: block;
+    position: absolute;
+    top: 540px;
+    width: 74%;
+    margin-left: 13%;
+    background-color: rgba(33, 34, 33, 0.7);
+    padding-bottom: 50px;
+    padding-top: 140px;
+    box-shadow: 0 0 10px rgba(33, 34, 33, 1);
+}
+.commTitle{
+    margin-left: 50%;
+}
+.othersContent{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+    opacity: 100%;
+}
+.otehrsImage{
+    height: 250px;
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+.othersTextL{
+    color: antiquewhite;
+    padding-top: 20px;
+    display: flex;
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top: 150px;
+
+    
+}
+.othersTextR{
+    align-items: center;
+    color: antiquewhite;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
 @media only screen and (max-width: 600px){
 
 }
