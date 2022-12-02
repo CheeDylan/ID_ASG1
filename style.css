@@ -446,6 +446,7 @@ p .loginContent{
     margin: 0px;
 }
 .commbox{
+    position: relative;
     width: 100%;
     display: block;
     display: flex;
@@ -457,7 +458,11 @@ p .loginContent{
     position: absolute;
     width: 80%;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
+
+    height: 80%;
+    padding-top: 6%;
+    top: 100px;
 }
 .commTextL{
     color: antiquewhite;
@@ -466,24 +471,22 @@ p .loginContent{
     width: 40%;
     display: inline-block;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 10%;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     border-top: 150px;   
     margin-bottom: 10px;
 }
 .commTextR{
     color: antiquewhite;
     height: auto;
-    padding-top: 20px;
     display: flex;
-    width: 40%;
+    width: 30%;
     display: inline-block;
     text-align: left;
     margin-right: 10px;
-    margin-top: 20px;
     margin-left: 10px;
-    align-items: center;  
+
 }
 .commimage{
     width: 80%;
