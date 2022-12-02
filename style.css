@@ -432,15 +432,8 @@ p .loginContent{
     background-color: aliceblue;
     position: absolute;
 }
-.commContent{
-    position: absolute;
-    width: 80%;
-    margin-left: 10%;
-    justify-content: space-between;
-    
-}
-.commHomeImage{
 
+.commHomeImage{
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -458,10 +451,14 @@ p .loginContent{
     display: flex;
     vertical-align: top;
     justify-content: space-around;
-    background-color: rgb(92, 129, 117);
     margin: 0;
 }
-
+.commContent{
+    position: absolute;
+    width: 80%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .7);
+}
 .commTextL{
     color: antiquewhite;
     padding-top: 20px;
