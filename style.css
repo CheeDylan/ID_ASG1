@@ -456,7 +456,6 @@ p .loginContent{
     vertical-align: top;
     justify-content: space-around;
     margin: 0;
-    
 }
 .commContent{
     position: absolute;
@@ -502,7 +501,6 @@ p .loginContent{
     height: 250px;
     object-fit: cover;
     margin-right: 10px;
-    
     margin-left: 10px;
     object-fit: cover;
 }
