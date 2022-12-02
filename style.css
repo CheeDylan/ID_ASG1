@@ -68,6 +68,7 @@ nav{
 }
 .download{
     z-index: 10;
+    font-family: Minecraftia;
     position: absolute;
     top: 560px;
     font-size: 25px;
@@ -140,6 +141,12 @@ nav{
     border-top: 150px;
 
     
+}
+.othersTextR h3{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 22px;
+
 }
 .othersTextR{
     align-items: center;
