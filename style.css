@@ -169,21 +169,32 @@ nav{
     margin-left: 10px;
     
 }
+.scrollTop img{
+    height: 70px;
+    width: auto;
+    margin-right: 1.5%;
+}
 .scrollTop{
-    margin-left: 93%;
+    margin-left: 92%;
     border: none;
-    width: 5%;
-    height: 100px;
+    width: 6%;
+    height: 70px;
     cursor: pointer;
     position: fixed;
     z-index: 200;
-    font-family: Minecraftia;
-    top:80%;
-    background: none;
-
+    top:78%;
+    background-color: rgb(55, 105, 66);
+    justify-content: center;
+    align-items: center;
+    transition: .15s;
+    opacity: .7;
 }
-.scrollTop img{
-    z-index: 2000;
+.scrollTop:hover{
+    box-shadow: 0px 0px 5px rgba(255,255,255,.3);
+    opacity: 1;
+}
+.scrollTop:active{
+    background-color: rgb(35, 72, 43);
 }
 
 /* REPORT */
