@@ -636,6 +636,13 @@ p .loginContent{
 .scrollTop2:active{
     background-color: rgba(0,0,0,.6);
 }
+.checkOut{
+    font-weight: bold;
+    color: beige;
+}
+#ischecking{
+    margin-top: 10px;
+}
 @media(max-width:600px){
     /* Home */
     section{
