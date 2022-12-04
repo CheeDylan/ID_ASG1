@@ -564,13 +564,36 @@ p .loginContent{
 }
 .commPageC{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin-left: 10%;
+    height: 100%;
+    padding-top: 90px;
+    align-items: center;
 }
-.commSelcetion{
-    border: none;
+.commbutton{
+    margin-top: 20px;
+    font-family: Minecraftia;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    color: bisque;
     background: none;
-
+    border: none;
+    cursor: pointer;
+    transition: .1s;
+}
+.commbutton:hover{
+    font-size: 30px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+.commbutton:active{
+    color: rgb(169, 148, 122);
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(175, 175, 175, 0.6);
 }
 @media screen {
     
