@@ -35,8 +35,14 @@
         sign in forever<input type="checkbox">
         <span class="checkmarkLogin"></span>
       </label>
-      <button class="loginButton"><h3>Login</h3></button>
+      <button class="loginButton" onClick="Refresh()"><h3>Login</h3></button>
       <a href="#" class="loginCreate">Create an account</a>
     </section>
+    
    </body>
+   <script>
+    function Refresh() {
+        window.parent.location = window.parent.location.href;
+    }
+</script>
 </html>
