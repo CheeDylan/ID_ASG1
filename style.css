@@ -221,6 +221,9 @@ nav{
     opacity: 1.0;
     color: beige;
 }
+.reportContent h2{
+    font-family: Minecraftia;
+}
 .inputReport{
     opacity: .4;
     margin-top: 10px;
@@ -233,6 +236,7 @@ nav{
     color: antiquewhite;
 }
 .inputReport::placeholder{
+    font-family: Minecraftia;
     font-size: large;
     font-weight: bold;
     color: antiquewhite;
