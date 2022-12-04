@@ -34,6 +34,7 @@ nav{
     position: fixed;
 }
 .navLink{
+    font-family: Minecraftia;
     margin-right: 20px;
     margin-top: 10px;
     margin-left: 10px;
@@ -143,11 +144,13 @@ nav{
     
 }
 .othersTextR h3{
+    font-family: Minecraftia;
     display: inline-block;
     text-decoration: underline;
     font-size: 22px;
 }
 .othersTextL h3{
+    font-family: Minecraftia;
     display: inline-block;
     text-decoration: underline;
     font-size: 22px;
@@ -271,6 +274,7 @@ nav{
   }
 
 .reportButton{
+    font-family: Minecraftia;
     border-radius: 1px;
     margin-top: 10px;
     display: block;
@@ -412,6 +416,7 @@ p .loginContent{
     border-radius: 50px;
     cursor: pointer;
     transition: .15s;
+    font-family: Minecraftia;
 }
 .loginButton:hover{
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
