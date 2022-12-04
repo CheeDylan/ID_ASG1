@@ -650,14 +650,14 @@ p .loginContent{
     .title{
         top: 150px;
         width: 76%;
-        margin-left: 24%;
+        margin-left: 12%;
         background-color: rgba(0, 0, 0, .38);
         box-shadow: 0 0 30px rgba(0,0,0,.7);
     }
     .download{
         top: 240px;
         width: 60%;
-        margin-left: 31%;
+        margin-left: 20%;
     }
     .others{
         padding-top: 10%;
