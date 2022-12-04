@@ -170,14 +170,20 @@ nav{
     
 }
 .scrollTop{
-    margin-left: 95%;
+    margin-left: 93%;
     border: none;
     width: 5%;
     height: 100px;
     cursor: pointer;
     position: fixed;
     z-index: 200;
-    margin-top: 80%;
+    font-family: Minecraftia;
+    top:80%;
+    background: none;
+
+}
+.scrollTop img{
+    z-index: 2000;
 }
 
 /* REPORT */
