@@ -219,7 +219,7 @@ nav{
     margin-top: 10px;
     padding-left: 30px;
     opacity: 1.0;
-    color: antiquewhite;
+    color: beige;
 }
 .inputReport{
     opacity: .4;
@@ -229,14 +229,15 @@ nav{
     border: none;
     box-sizing: border-box;
     border-radius: 10px;
-    resize: none;
+    background-color: black;
+    color: antiquewhite;
 }
 .inputReport::placeholder{
     font-size: large;
     font-weight: bold;
     color: antiquewhite;
 }
-.inputReport[type=textarea]{
+.inputReport[type=text]{
     background-color: black;
     font-size: large;
     font-weight: bold;
@@ -769,8 +770,26 @@ p .loginContent{
     .reportSelect{
         font-size: 10px;
     }
-    .reportContent{
-        font-size: 10px;
+    .inputReport{
+        width: 80%;
+        height: 50px;
+    }
+    .reportContent p{
+        padding-top: 5%;
+    }
+    .reportType{
+        vertical-align: top;
+        margin:0px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    #reportRight{
+        height: 30%;
+        justify-content: space-between;
+        
+    }
+    #reportRight .reportSelect{
+        margin-top: 10px;
     }
 
 }
