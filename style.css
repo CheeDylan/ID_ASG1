@@ -562,8 +562,26 @@ p .loginContent{
     background-color: rgb(26, 25, 25);
     box-shadow: 0 0 15px rgba(0, 0, 0, .7);
 }
-c
+.commPageC{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+}
+.commbutton{
+    width: 10%;
+    height: auto;
+    background-color: green;
+    border: none;
 
+}
+.commbutton img{
+    width: 10px;
+
+}
+.commbuttons .commSelcetio{
+    width: 80px;
+    background: none;
+}
 @media screen {
     
 }
