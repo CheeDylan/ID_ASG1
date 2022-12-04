@@ -635,14 +635,14 @@ p .loginContent{
     background-color: rgba(0,0,0,.6);
 }
 @media(max-width:600px){
+    /* Home */
     section{
         width: 100%;
         height: 100%;
         justify-content: center;
     }
-    .homeImagefix{ height: 100%;}
-    nav{
-        
+    .homeImagefix{
+        height: 100%;
     }
     .navLink{
         font-size: 10px;
@@ -676,5 +676,9 @@ p .loginContent{
     }
     .othersContent h3{
         font-size: 10px;
+    }
+    .scrollTop{
+        width: 10%;
+        height: 10px;
     }
 }
