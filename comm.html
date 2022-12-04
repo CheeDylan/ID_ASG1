@@ -18,6 +18,20 @@
         <nav>
             <a class="navLink" href="homepage.html">Back to home</a>
         </nav>
+    <button class="scrollTop2">
+        <img src="image/uparrow2.png">
+        </button>
+    <script>
+      const scrollTop = document.querySelector(".scrollTop2");
+
+      scrollTop.addEventListener("click",function(){
+        window.scrollTo({
+          top: 0,
+          left:0,
+          behavior:"smooth"
+        });
+      });
+    </script>
 
     </div>
     <section class="homeImage">
@@ -28,19 +42,73 @@
                 <div class="commPageC">
                     <div class="commSelcetion">
                         <button class="commbutton" id="commbutton1">Public Servers</button>
+                        <script>
+                            const button1 = document.querySelector("#commbutton1");
+                      
+                            button1.addEventListener("click",function(){
+                              window.scrollTo({
+                                top: 800,
+                                left:0,
+                                behavior:"smooth"
+                              });
+                            });
+                          </script>
                     </div>
                     <div class="commSelcetion">
                         <button class="commbutton" id="commbutton2">Youtuber community</button>
+                        <script>
+                            const button2 = document.querySelector("#commbutton2");
+                      
+                            button2.addEventListener("click",function(){
+                              window.scrollTo({
+                                top: 1600,
+                                left:0,
+                                behavior:"smooth"
+                              });
+                            });
+                          </script>
                     </div>
                     <div class="commSelcetion">
                         <button class="commbutton" id="commbutton3">Mods (Java edition)</button>
-
+                        <script>
+                            const button3 = document.querySelector("#commbutton3");
+                      
+                            button3.addEventListener("click",function(){
+                              window.scrollTo({
+                                top: 2400,
+                                left:0,
+                                behavior:"smooth"
+                              });
+                            });
+                          </script>
                     </div>
                     <div class="commSelcetion">
                         <button class="commbutton" id="commbutton4">Minecraft Marketplace (bedrock edition)</button>
+                        <script>
+                            const button4 = document.querySelector("#commbutton4");
+                      
+                            button4.addEventListener("click",function(){
+                              window.scrollTo({
+                                top: 3200,
+                                left:0,
+                                behavior:"smooth"
+                              });
+                            });
+                          </script>
                     </div>
                     <div class="commSelcetion">
                         <button class="commbutton" id="commbutton5">Minecraft Socials</button>
+                        <script>
+                            const button5 = document.querySelector("#commbutton5");
+                      
+                            button5.addEventListener("click",function(){
+                              window.scrollTo({
+                                top: 3970,
+                                left:0,
+                                behavior:"smooth"
+                              });
+                            });
+                          </script>
                     </div>
                 </div>
 
@@ -121,5 +189,6 @@
         <div class="divider"></div>
 
     </section>
+   
   </body>
 </html>
