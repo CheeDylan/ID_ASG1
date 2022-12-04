@@ -169,6 +169,16 @@ nav{
     margin-left: 10px;
     
 }
+.scrollTop{
+    margin-left: 95%;
+    border: none;
+    width: 5%;
+    height: 100px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 200;
+    margin-top: 80%;
+}
 
 /* REPORT */
 .reportBox{
