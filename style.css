@@ -634,6 +634,47 @@ p .loginContent{
 .scrollTop2:active{
     background-color: rgba(0,0,0,.6);
 }
-@media screen {
-    
+@media(max-width:600px){
+    section{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .homeImagefix{ height: 100%;}
+    nav{
+        
+    }
+    .navLink{
+        font-size: 10px;
+    }
+    .title{
+        top: 150px;
+        width: 76%;
+        margin-left: 24%;
+        background-color: rgba(0, 0, 0, .38);
+        box-shadow: 0 0 30px rgba(0,0,0,.7);
+    }
+    .download{
+        top: 240px;
+        width: 60%;
+        margin-left: 31%;
+    }
+    .others{
+        padding-top: 10%;
+        width: 92%;
+        margin-left: 4%;
+        top:360px;
+    }
+    .otehrsImage{
+        margin-top: 12%;
+        width: 40%;
+        height: 10%;
+        padding-bottom: 2px;
+    }
+    .othersContent{
+        font-size: 10px;
+    }
+    .othersContent h3{
+        font-size: 10px;
+    }
 }
