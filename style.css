@@ -567,20 +567,10 @@ p .loginContent{
     width: 80%;
     margin-left: 10%;
 }
-.commbutton{
-    width: 10%;
-    height: auto;
-    background-color: green;
+.commSelcetion{
     border: none;
-
-}
-.commbutton img{
-    width: 10px;
-
-}
-.commbuttons .commSelcetio{
-    width: 80px;
     background: none;
+
 }
 @media screen {
     
