@@ -229,13 +229,14 @@ nav{
     border: none;
     box-sizing: border-box;
     border-radius: 10px;
+    resize: none;
 }
 .inputReport::placeholder{
     font-size: large;
     font-weight: bold;
     color: antiquewhite;
 }
-.inputReport[type=text]{
+.inputReport[type=textarea]{
     background-color: black;
     font-size: large;
     font-weight: bold;
@@ -763,6 +764,13 @@ p .loginContent{
     .commimage{
         height: 3%;
         width: 80%;
+    }
+    /* Report an issue */
+    .reportSelect{
+        font-size: 10px;
+    }
+    .reportContent{
+        font-size: 10px;
     }
 
 }
